@@ -1,0 +1,248 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #22343d;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+h1, h2, h3, h4, h5, h6, p,{
+    margin:0
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;}
+
+    .address {
+        font-style: normal;     
+}
+    button {
+        border: none;
+        cursor: pointer;
+    }
+font-family: "Inter",
+sans-serif;
+font-family: "Montserrat",
+sans-serif;
+font-family: "Roboto",
+sans-serif;
+
+.container{ 
+max-width: 1150px;
+padding: 0 20px 0 20px;
+margin: 0 auto;
+}
+
+/* Header */
+.header-logo{
+font-weight: 700;
+font-size: 30px;
+line-height: 0.93333;
+color: #173a56;
+}
+
+.image-logo{
+width: 39px;
+height: 36px;
+}
+
+.header-menu-item{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #22343d;
+}
+
+.header-button-item{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #173a56;
+background-color: #fff;
+width: 105px;
+height: 42px;
+border: 1px solid #bcd0e5;
+}
+
+header-button-it{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #02897a;
+    border-radius: 4px;
+    width: 113px;
+    height: 42px;
+}
+
+/* Hero */
+.hero {}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    color: #22343d;
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    width: 178px;
+    height: 53px;
+    background: #02897a;
+}
+.hero-button {
+font-weight: 600;
+font-size: 16px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #02897a;
+background-color: #fff;
+}
+
+.hero-img {}
+
+/* Product Built  */
+
+.product-built {}
+
+.title-product-built {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+}
+
+.product-built-list {}
+
+.product-built-item {}
+
+.project-built-subtitle {
+    font-weight: 600;
+    font-size: 22px;
+    color: #22343d;
+}
+
+.project-built-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.project-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff
+    width: 175px;
+    height: 53px;
+    background: #02897a;
+}
+
+/* Management */
+.management {
+    
+}
+ .management .aktiv{
+font-weight: 600;
+font-size: 16px;
+color: #22343d;
+}
+
+
+.management-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.management-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.management-list {}
+
+.management-item {}
+
+.management-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.management-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    olor: #22343d;
+}
+
+/* Customer Support */
+.customer-support {}
+
+.customer-support .aktiv{
+font-weight: 600;
+font-size: 16px;
+color: #22343d;
+}
+
+.customer-support-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.customer-support-text {}
+
+.customer-support-list {}
+
+.customer-support-item {}
+
+.customer-support-description {}
+
+/* Collaborative */
+
+.collaborative {}
+
+.collaborative-title {}
+
+.collaborative-text {}
+
+.collaborative-list {}
+
+.collaborative-item {}
+
+.collaborative-subtitle {}
+
+.collaborative-description {}
