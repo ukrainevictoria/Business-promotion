@@ -1,28 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business promotion</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900;&family=Roboto:wght@100..900"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="./index.html"> <img src="./images-business/logo-min.png" alt="logo" />Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a> </li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customers.html">Customers</a></li>
-                <li><a href="./resourses.html">Resources</a></li>
-            </ul>
-        </nav>
+<!-- Header -->
 
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-navigation">
+                <a href="/index.html" class="header-logo"><img src="./images-business/logo-min.png"
+                        alt="logo" />Product</a>
+                <ul class="header-menu-list">
+                    <li class="header-menu-item">
+                        <a href="/index.html" class="header-menu-link"> Product</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="/pricing.html" class="header-menu-link">Pricing</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="/customers.html" class="header-menu-link current">Customers</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="/resourses.html" class="header-menu-link">Resources</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="header-button-list">
+                <li class="header-button-item">
+                    <button type="button" class="header-button-item sign-in">Sign In</button>
+                </li>
+                <li class="header-button-item">
+                    <button type="button" class="header-button-item sign-up">Sign Up</button>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <!-- Main content -->

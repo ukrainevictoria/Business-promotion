@@ -4,36 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business promotion</title>
+    <!-- Normalize -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:,wght@14..32,100..900&family=Montserrat:wght@400,500,600,700,800,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700&family=Roboto:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900;&family=Roboto:wght@100..900"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-            integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link rel="stylesheet" href="./css/styles.css">
+        <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
         </head>
 
 <!-- Header -->
 <body>
     <header class="header">
         <div class="container">
-        <nav class="header-navigation">
-            <a class="header-logo" href="/index.html"> <img class="image-logo" href="./images-business/logo-min.png" 
-                    alt="logo" />Product</a>
+             <nav class="header-navigation">
+            <a href="/index.html" class="header-logo"><img src="./images-business/logo-min.png" alt="logo"/>Product</a>
             <ul class="header-menu-list">
-                <li class="header-menu-item-current"><a class="header-menu-link" href="/index.html"> Product</a> </li>
-                <li class="header-menu-item"><a class="header-menu-link" href="/pricing.html">Pricing</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="/customers.html">Customers</a></li>
-                <li class="header-menu-item"><a class="header-menu-link" href="/resourses.html">Resources</a></li>
+                <li class="header-menu-item">
+                    <a href="/index.html" class="header-menu-link current"> Product</a> </li>
+                <li class="header-menu-item">
+                    <a href="/pricing.html" class="header-menu-link">Pricing</a></li>
+                <li class="header-menu-item">
+                    <a href="/customers.html" class="header-menu-link">Customers</a></li>
+                <li class="header-menu-item">
+                    <a href="/resourses.html" class="header-menu-link">Resources</a></li>
             </ul>
         </nav>
 
         <ul class="header-button-list">
-            <li class="header-button-item"><button type="button">Sign In</button></li>
-            <li class="header-button-it"><button type="button">Sign Up</button></li>
+            <li class="header-button-item">
+            <button type="button" class="header-button-item sign-in">Sign In</button></li>
+            <li class="header-button-item">
+            <button type="button" class="header-button-item sign-up">Sign Up</button></li>
         </ul>
         </div>
     </header>
@@ -43,42 +50,48 @@
   <main>
     <!-- Hero -->
     <section class="hero">
-        <h1 class="hero-title">Work at the speed of thought</h1>
-        <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
-        experience.</p>
-        <ul>
-            <li class="hero-button"><button type="button">Get started</button></li>
-            <li class="hero-button"><button type="button">Watch the Video</button></li>
-        </ul>
-       <img class="hero-img"  src="./images-business/hero-img.png" alt="hero" width="610">
+        <div class="container">
+            <div class="hero-text-wrap">
+                <h1 class="hero-title">Work at the speed of thought</h1>
+                <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user
+                experience.</p>
+                <ul class="hero-button-list">
+                    <li class="hero-button"><button type="button" class="hero-button hero-get ">Get started</button></li>
+                    <li class="hero-button"><button type="button" class="hero-button hero-watch">Watch the Video</button></li>
+                </ul>
+            </div>
+                   <img class="hero-img"  src="./images-business/hero-img.png" alt="hero" width="610">
+        </div>
     </section>
 
      <!-- Product Built -->
     <section class="product-built">
-        <h2 class="title-product-built">Product was Built Specifically for You</h2>
-        <ul class="product-built-list">
-            <li class="product-built-item">
-                <img  src="" alt="">
-                <h3 class="project-built-subtitle">First click tests</h3>
-                <p class="project-built-text">While most people enjoy casino gambling,</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3 class="project-built-subtitle">Design surveys</h3>
-                <p class="project-built-text">Sports betting, lottery and bingo playing for the fun</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3 class="project-built-subtitle">Preference tests</h3>
-                <p class="project-built-text">The Myspace page defines the individual.</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3 class="project-built-subtitle">Five second tests</h3>
-                <p class="project-built-text">Personal choices and the overall personality of the person. </p>
-            </li>
-        </ul>
-        <button class="project-button" type="button">SIGN UP NOW</button>
+        <div class="container">
+            <h2 class="title-product-built">Product was Built Specifically for You</h2>
+            <ul class="product-built-list">
+                <li class="product-built-item"><div class="green box-icon"></div>
+                    <img  src="" alt="">
+                    <h3 class="product-built-subtitle">First click tests</h3>
+                    <p class="product-built-text">While most people enjoy casino gambling,</p>
+                </li>
+                <li class="product-built-item"><div class="blue box-icon"></div>
+                    <img src="" alt="">
+                    <h3 class="product-built-subtitle">Design surveys</h3>
+                    <p class="product-built-text">Sports betting, lottery and bingo playing for the fun</p>
+                </li>
+                <li class="product-built-item"><div class="violett box-icon"></div>
+                    <img src="" alt="">
+                    <h3 class="product-built-subtitle">Preference tests</h3>
+                    <p class="product-built-text">The Myspace page defines the individual.</p>
+                </li>
+                <li class="product-built-item"><div class="red box-icon"> </div>
+                    <img src="" alt="">
+                    <h3 class="product-built-subtitle">Five second tests</h3>
+                    <p class="product-built-text">Personal choices and the overall personality of the person. </p>
+                </li>
+            </ul>
+            <button class="product-button" type="button" class="product-built-button">SIGN UP NOW</button>
+        </div>
     </section>
        
     <!-- Management -->
@@ -171,7 +184,7 @@
             <h3>Increasing Prosperity With Positive Thinking</h3>
         </li>
         <li>
-            <img src="./images-business/people.png" alt="peoples">width="350"
+            <img src="./images-business/peoples.png" alt="peoples">width="350"
             <p>By Wahid Ari | 03 March 2019</p>
             <h3>Motivation Is The First Step To Success</h3>
         </li>
